@@ -6,6 +6,9 @@ html {
 body {
     display: flex;
     justify-content: center;
+     background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0, right bottom;
 
 
 }
