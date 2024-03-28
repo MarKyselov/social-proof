@@ -1,0 +1,163 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 71px;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+    gap: 125px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+h1 {
+    width: 445px;
+    height: 154px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #512051;
+}
+
+.header>p {
+    width: 445px;
+    height: 75px;
+    left: 165px;
+    top: 288px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: -0.633333px;
+    color: #927B91;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 540px;
+}
+
+.rating>span {
+    width: 445px;
+    height: 56px;
+    background-color: #f7f2f7;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    color: #512051;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-left: 32px;
+    border-radius: 8px;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-between;
+    width: 116px;
+}
+
+.rating2 {
+    align-self: center;
+}
+
+.rating3 {
+   align-self: flex-end;
+}
+
+.bottom {
+    display: flex;
+    gap: 30px;
+    height: 266px;
+}
+
+.irene {
+   align-self: center;
+}
+
+.anne {
+    align-self: flex-end;
+}
+
+.colton,
+.irene,
+.anne {
+    width: 350px;
+    height: 234px;
+    padding: 32px;
+    background-color: #512051;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: -0.303571px;
+    color: #FFFFFF;
+    gap: 31px;
+    line-height: 22px;
+
+}
+
+.person>img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.person {
+    display: flex;
+    gap: 23px;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name>span {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 16px;
+    color: #EE69A4;
+}
